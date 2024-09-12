@@ -1,0 +1,94 @@
+header {
+    background-color: #0E17ED;
+    height: 12vw;
+}
+
+.porto {
+    max-width: 5vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.icon {
+    max-width: 4vw;
+    float: right;
+    margin-right: 4.5vw;
+    margin-top: 3vw;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 40px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.serv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.icons{
+    width: 2vw;
+}
+
+span {
+    padding: 10px;
+}
+
+#imgContato {
+    margin-top: 11px;
+}
