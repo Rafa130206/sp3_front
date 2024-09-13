@@ -1,5 +1,7 @@
+import Erro from '../../img/img-404.jpg'
+
 export default function Error() {
     return(
-        <h1>Erro</h1>
+        <img src={Erro} alt="Página não encontrada" />
     )
 }
