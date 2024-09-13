@@ -16,9 +16,11 @@ export default function Contato() {
                             <input type="text" name='email' id='idemail' placeholder='Insira seu email'/>
                         </label>
                         <label>
-                            <input type="text" name='mensagem'/>
+                            <textarea name="mensagem" id="idmensagem" cols={30} rows={10} placeholder='Deixe sua mensagem!'></textarea>
                         </label>
                     </fieldset>
+                    <br />
+                    <button type='submit' value={"Enviar"}>Enviar</button>
                 </form>
             </section>
         </div>

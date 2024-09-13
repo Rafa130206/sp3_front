@@ -92,3 +92,263 @@ span {
 #imgContato {
     margin-top: 11px;
 }
+
+/* ================ DESKTOPS MÉDIOS ================ */
+
+@media screen and (max-width: 1199px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 150px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 5px 5px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px 40px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 40px;
+    }
+
+    .home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .cadastro{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .integrantes{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+
+/* ================ TABLETS E LAPTOPS ================ */
+
+@media screen and (max-width: 991px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 120px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 5px 5px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px 40px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 40px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+/* ================ TELEFONES MÉDIOS E TABLETS PEQUENOS ================ */
+
+@media screen and (max-width: 767px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 120px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 3px 3px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px 40px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 40px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+/* ================ TELEFONES PEQUENOS ================ */
+
+@media screen and (max-width: 576px){
+
+    /* ============================ Header ============================ */
+
+    .header{
+        background-color: rgb(1, 161, 253);
+        height: 80px;
+    }
+
+    .porto{
+        max-width: 5vw;
+        margin-left: 2vw;
+        margin-top: 1vw;
+        box-shadow: 2px 2px rgb(128, 132, 129);
+    }
+
+    .icon{
+        max-width: 2vw;
+        float: right;
+        margin-right: 4.5vw;
+        margin-top: 3vw;
+
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 5px 20px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        margin-top: 20px;
+    }
+
+    a.home{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    a.prod{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    a.serv{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+
+    a.pagint{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+    }
+}

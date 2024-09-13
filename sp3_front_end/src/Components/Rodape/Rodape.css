@@ -10,3 +10,67 @@ footer {
 .copyright{
     font-size: 11px;
 }
+
+/* ================ DESKTOPS MÉDIOS ================ */
+
+@media screen and (max-width: 1199px){
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 14px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+    }
+
+}
+
+/* ================ TABLETS E LAPTOPS ================ */
+
+@media screen and (max-width: 991px){
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+        margin-top: 5vw;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+/* ================ FOOTER ================ */
+
+footer{
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(1, 161, 253);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    width: 98%;
+}
+}
+
+/* ================ TELEFONES PEQUENOS ================ */
+
+@media screen and (max-width: 576px){
+    /* ================ FOOTER ================ */
+
+    footer{
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(1, 161, 253);
+        color: white;
+        padding: 10px;
+        position: absolute;
+        top: 100%;
+        width: 94.9%;
+    }    
+}
