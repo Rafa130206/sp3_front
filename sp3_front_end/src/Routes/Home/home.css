@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5vw;
+}
+
+.sec1{
+    background-color: rgb(239, 244, 240);
+    display: flex;
+    border-radius: 15px;
+    width: 30vw;
+    padding-bottom: 20px;
+    margin: 2vw;
+}
+
+.mecbot{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 3vw;
+}
+
+.phome{
+    line-height: 24px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.sec2{
+    width: 30vw;
+    align-self: center;
+    margin: 2vw;
+}
+
+.carros{
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(128, 132, 129);
+    width: 40vw;
+}
