@@ -1,0 +1,382 @@
+.paginth1{
+    text-align: center;
+    margin: 15px;
+    font-size: 38px;
+}
+
+h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 22px;
+}
+
+.linkrep{
+    text-align: center;
+    margin: 15px;
+}
+
+a.rep{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(1, 161, 253);
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+    margin-bottom: 20vw;
+}
+
+.foto1{
+    width: 15vw;
+    box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+}
+
+.legenda1{
+    width: 15vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.foto2{
+    width: 15vw;
+    box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+}
+
+.legenda2{
+    width: 15vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.foto3{
+    width: 15vw;
+    box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+}
+
+.legenda3{
+    width: 15vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+/* ================ DESKTOPS MÉDIOS ================ */
+
+@media screen and (max-width: 1199px){
+/* ============================ Pag. Int ============================ */
+
+.paginth1{
+    text-align: center;
+    margin: 15px;
+    font-size: 42px;
+}
+
+h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 26px;
+}
+
+.linkrep{
+    text-align: center;
+    margin: 15px;
+}
+
+a.rep{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(1, 161, 253);
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+    margin-bottom: 20vw;
+}
+
+.foto1{
+    width: 15vw;
+    box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+}
+
+.legenda1{
+    width: 15vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.foto2{
+    width: 15vw;
+    box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+}
+
+.legenda2{
+    width: 15vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.foto3{
+    width: 15vw;
+    box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+}
+
+.legenda3{
+    width: 15vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+}
+
+/* ================ TABLETS E LAPTOPS ================ */
+
+@media screen and (max-width: 991px){
+
+    /* ============================ Pag. Int ============================ */
+
+    .paginth1{
+        text-align: center;
+        margin: 15px;
+        font-size: 38px;
+    }
+
+    h2{
+        text-align: center;
+        margin: 25px;
+        font-size: 22px;
+    }
+
+    .linkrep{
+        text-align: center;
+        margin: 15px;
+    }
+
+    a.rep{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(1, 161, 253);
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 3vw;
+        margin-bottom: 20vw;
+    }
+
+    .foto1{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda1{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+
+    .foto2{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda2{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+
+    .foto3{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda3{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+}
+
+/* ================ TELEFONES MÉDIOS E TABLETS PEQUENOS ================ */
+
+@media screen and (max-width: 767px){
+
+    /* ============================ Pag. Int ============================ */
+
+    .paginth1{
+        text-align: center;
+        margin: 15px;
+        font-size: 32px;
+    }
+
+    h2{
+        text-align: center;
+        margin: 25px;
+        font-size: 22px;
+    }
+
+    .linkrep{
+        text-align: center;
+        margin: 15px;
+        margin-bottom: 40px;
+    }
+
+    a.rep{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(1, 161, 253);
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 20vw;
+    }
+
+    .foto1{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda1{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 8px;
+    }
+
+    .foto2{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda2{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 8px;
+    }
+
+    .foto3{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda3{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 8px;
+    }
+
+}
+
+/* ================ TELEFONES PEQUENOS ================ */
+
+@media screen and (max-width: 576px){
+
+    /* ============================ Pag. Int ============================ */
+
+    .paginth1{
+        text-align: center;
+        margin: 15px;
+        font-size: 28px;
+    }
+
+    h2{
+        text-align: center;
+        margin: 25px;
+        font-size: 18px;
+    }
+
+    .linkrep{
+        text-align: center;
+        margin: 15px;
+        margin-bottom: 40px;
+    }
+
+    a.rep{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(1, 161, 253);
+        font-size: 12px;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-top: 3vw;
+        margin-bottom: 20vw;
+    }
+
+    .foto1{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda1{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+
+    .foto2{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda2{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+
+    .foto3{
+        width: 15vw;
+        box-shadow: 0px 0px 5px 5px rgb(161, 157, 157);
+    }
+
+    .legenda3{
+        width: 15vw;
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 10px;
+    }
+}
